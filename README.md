@@ -15,7 +15,7 @@ hluta hennar sem heldur utan um verkefni frá nemendum á Tölvubraut.
 Þar er núna að finna 35 eldri verkefni og skýrslur úr áföngum eins og
 leikjaforritun, verksmiðja, vefþróun og viðmótsforritun á Tölvubraut.
 
----
+<br>
 
 Ég myndi vilja búa til með JavaScript forritun (React) viðmót þar sem
 notandi getur síað (eða leita að) verkefnum eftir; áfanga, höfund, heiti,
@@ -23,7 +23,7 @@ efni og dagsetningum. Með þessu vil ég styrkja mig í JavaScript og læra
 á React sem er vinsælt JavasScript UI safn sem er notað fyrir m.a. vefi
 og öpp í atvinnulifinu.
 
----
+<br>
 
 Ég myndi líka fjölga nemendaverkefnum sem við eigum vistuð á
 github.com og frá fleiri áföngum sem við höfum ekki sett enn á vefinn.
