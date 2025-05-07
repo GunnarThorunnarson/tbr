@@ -1,17 +1,16 @@
 # TODO
 - [ ] Taka út tskoli.github.io https://github.com/Tskoli  _Guðmundur, Geir, gamalt_
-- [ ] búa til JSON skrá fyrir verkefnin
-- [ ] búa til template fyrir verkefni
+- [x] búa til JSON skrá fyrir verkefnin
+- [x] búa til template fyrir verkefni
 - [ ] búa til vefviðmót fyrir kennara/admin til að setja inn verkefni á tolvubraut.is
-- [ ] JS random generator 
-     - https://talk.jekyllrb.com/t/show-random-post/807 <br>
-     - https://thornelabs.net/posts/display-random-jekyll-posts-during-each-page-load-or-refresh-using-javascript.html
+- [x] JS random generator 
 - [ ] Gera filter dagatal
-- [ ] Gera filter dropdown áfangaheiti.
-- [ ] Gera smart leitarreit. (síðast)
+- [ ] Kannski eða sleppa - Gera filter dropdown áfangaheiti.
+- [x] Gera smart leitarreit. 
 - [ ] automate meira ferlið að setja inn nemarepo
 - [ ] leyfismál, færa í Innu. annars manual á meðan, geyma samþykktir.
-
+- [ ] filter fyrir namskra, kjarni, val, bundið val.
+      
 ### index.html 
 - [ ] skerpa betur á lykilsetningar hafa undir myndböndum, 
 - [ ] bæta við í footer contact info, heimilisfang, kort, linka á samfélagsmiðla
