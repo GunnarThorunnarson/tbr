@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="namsskra.css">
+    <link rel="icon" href=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/PICOL_Computer.svg/64px-PICOL_Computer.svg.png
+    />
+    <title>Tölvubraut - Val</title>
+    <style>
+        body {
+            margin-top:0;
+            padding-top: 4em;
+        }
+        .headwrapper {
+            position:fixed ;
+            top:0;
+            left:0;
+            right:0;
+            height: 3.5em;
+            background-color: #fff; 
+            border: 0;   
+            box-shadow: 0 0 1em #ddd;
+            z-index:99;
+        }             
+        .headmenu {
+            max-width:60em;
+            padding: .2em 0;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        } 
+        .logo  {
+            display: flex;
+            align-content: center;
+        }  
+        .logo a{
+            text-decoration: none;
+        }
+        .logo img{
+            width: 2.5em;
+            height: 3.5em;
+        }
+        .logotxt {   
+            color: #0B3E7A;
+            font-family: sans-serif;
+            text-decoration: none;
+            text-align: left;
+            padding-top:1.3em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="headwrapper">
+        <div class="headmenu"> 
+            <div class="logo"> 
+                <a href="https://tolvubraut.github.io/" title="Tölvubraut Tækniskólans"><img src="../images/tskoli-logo.svg" title="Aftur á forsíðu"></a>  
+                <a href="https://tolvubraut.github.io/" title="Tölvubraut Tækniskólans" class="logotxt">TÖLVUBRAUT - STÚDENTSBRAUT</a>   
+            </div>
+            <h3 style="color:#0B3E7A; font-size: 1.1em; font-weight: 400; text-align: center;">   <a href="https://namskra.is/programmes/1878c334-b82b-4375-a174-efe5fe92f300" target="_blank"> Námskrá tölvubrautar á https://namskra.is</a>
+            </h3> 
+        </div>
+    </div>
+
+    <div class="loada" id="loada">
+        <p>Hleð síðu...</p>
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <div class="modal-overlay " id="modal-overlay "></div>
+    <div class="yfir" id="yfir">
+        <header>
+            <div class="haus"></div>
+            <!-- <div class="skylda-val"><em>Bláir reitir eru skylduáfangar.</em></div> -->
+            <p></p>
+        </header>
+
+        <div class="container" id="maingrid">
+<!--
+            <div id="onn1" class="annir onn1">1. önn</div>
+            <div id="onn2" class="annir onn2">2. önn</div>
+            <div id="onn3" class="annir onn3">3. önn</div>
+            <div id="onn4" class="annir onn4">4. önn<</div>
+            <div id="onn5" class="annir onn5">5. önn</div>
+            <div id="onn6" class="annir onn6">6. önn</div>
+-->
+        </div>
+
+        <div class="modal">
+            <div class="mnafn"></div>
+            <div class="mnumer"></div>
+            <div class="mlysing"></div>
+            <div class="mundanfarar"></div>
+            <div class="mcomment"></div>
+            <a class="mlinkur" target="_blank" href="https://namskra.is/courses/591c3dec62933a4e9205594a">Sjá nánar á námskrá.is</a>
+            <button class="close-button" id="close-button">Loka</button>
+        </div>
+        <footer>
+            <!--
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+            -->
+        </footer>
+    </div>
+    <script src="leader-line.min.js"></script>
+    <script src="Afangi.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

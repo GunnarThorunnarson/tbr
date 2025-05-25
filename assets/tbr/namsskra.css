@@ -1,0 +1,424 @@
+@charset "UTF-8";
+:root {
+    --FORR: rgba(255, 234, 167, 0.7);
+    --FORK: rgba(253, 121, 168, 0.7);
+    --GAGN: rgba(85, 239, 196, 0.7);
+    --KEST: rgba(178, 190, 195, 0.7);
+    --ROBO: rgba(250, 177, 160, 0.7);
+    --VEFÞ: rgba(129, 236, 236, 0.7);
+    --CORE: rgba(214, 48, 49, 0.7);
+    --ANNAD: rgba(240, 240, 240, 0.7);
+    --EÐLI: rgba(255, 118, 117, 0.7);
+    --STÆR: var(--EÐLI);
+    --ONN1: rgba(108, 92, 231, 0.10);
+    --ONN2: rgba(9, 132, 227, 0.10);
+    --ONN3: rgba(0, 184, 148, 0.10);
+    --STRONG: rgba(214, 48, 49, 1.0);
+    --LINK: rgba(9, 132, 227, 1.0);
+    --SAMH: rgba(0, 184, 148, 1.0);
+    --BAKG: rgba(223, 230, 233, 1.0);
+    --TEXT: rgba(45, 52, 54, 1.0);
+    --BVAL1: var(--SAMH);
+    --BVAL2: var(--TEXT);
+    --ANNIR: var(--ONN2);
+    --VERK: var(--ROBO);
+}
+
+/*
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--BAKG);
+    vertical-align: middle;
+    color: var(--TEXT);
+}
+
+.yfir {
+    display: none;
+}
+*/
+.loada {
+    position: fixed;
+    padding-top: 10%;
+    top: 0px;
+    opacity: 1;
+    z-index: 100;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.spinner {
+    margin: 100px auto 0;
+    width: 70px;
+    text-align: center;
+}
+
+.spinner>div {
+    width: 18px;
+    height: 18px;
+    background-color: #333;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0)
+    }
+    40% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bouncedelay {
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+
+header {
+    display: block;
+    text-align: center;
+}
+
+.haus {
+    position: relative;
+    font-size: 1.4rem;
+    align-content: center;
+}
+
+.skylda-val {
+    position: relative;
+    font-size: 1.2rem;
+    align-content: center;
+}
+
+.linkar {
+    display: grid;
+}
+
+div.container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 2px;
+    grid-template-areas:    " ÍÞRÓ1LA ÍÞRÓ1GH ÍSLE2AA STÆR2BR . KEST1VL FORR1FG VEFÞ1VG VESM1VS . " 
+                            " ÍÞRÓ1LB . ÍSLE2GO STÆR2AH . KEST2VW FORR2FA VEFÞ2VH VESM2VT FORK2FE " 
+                            " ÍÞRÓ1LC EÐLI2GR ÍSLE3NB STÆR3RV . KEST2UN FORR2HF VEFÞ2VF VESM2VÞ . " 
+                            " ENSK2AE LÍFS1GR ÍSLE3LF STÆR3FM GAGN2HS KEST3DN FORR2GL FORR3JS ROBO2RG FORK2FT " 
+                            " ENSK2OF MENL1AL ÍSLE3BF STÆR3FV GAGN2VG KEST3CO FORR3FL VEFÞ3VÞ ROBO3RF . " 
+                            " DANS2BM . . . . KEST3LN FORR3CG FORR3FV . FORK2FÞ "
+                            " . . . . . KEST3WG . . . . "
+                            " . . . . . . . . . . "; 
+}
+
+.afangar {
+    display: block;
+    border-radius: 4px;
+    padding: 6px 6px;
+    margin: 4px 4px;
+   /* z-index: 10; */ /* truflaði, menu fór fyrir aftan*/
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color:rgb(236, 231, 224);
+}
+
+.afangi {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color:rgb(11, 11, 75);
+    min-height: 3em;
+}
+
+.core {
+    border: 1px solid gray;
+    background-color:rgb(228, 239, 248);
+}
+
+.bval1 {
+    border: 1px solid gray;
+    background-color:rgb(214, 240, 240);
+
+}
+
+.bval2 {
+    border: 4px dashed var(--BVAL2);
+}
+
+.bval9 {
+    border: 4px dashed white;
+}
+
+.linkur {
+    color: var(--LINK);
+    font-size: 0.8rem;
+}
+
+a {
+    color: var(--LINK);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+strong {
+    display: none;
+    color: var(--STRONG);
+}
+
+.fela {
+    display: none;
+}
+
+strong.comment {
+    padding: 3px 3px;
+    margin: 4px;
+    text-align: center;
+    color: var(--BAKG);
+    background: var(--SAMH);
+    border: 2px solid var(--SAMH);
+    border-radius: 5px;
+    display: none;
+}
+
+div.undanfarar {
+    padding: 3px 3px;
+    margin: 4px;
+    margin-bottom: 4px;
+    text-align: center;
+    display: none;
+    border: 2px solid var(--STRONG);
+    border-radius: 5px;
+}
+
+h4 {
+    font-size: 0.8rem;
+    display: block;
+    text-align: center;
+    cursor: default;
+    margin-bottom: 0.8rem;
+}
+
+div.annir {
+    padding: 50px 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: var(--ANNIR);
+    margin-left: 5px;
+    width: 1410%;
+}
+
+div.onn1 {
+    grid-area: onn1;
+    /* background: var(--ANNIR); */
+}
+
+div.onn2 {
+    grid-area: onn2;
+    /* background: var(--ONN2); */
+}
+
+div.onn3 {
+    grid-area: onn3;
+    /* background: var(--ONN3); */
+}
+
+div.onn4 {
+    grid-area: onn4;
+    /* background: var(--ONN3); */
+}
+
+div.onn5 {
+    grid-area: onn5;
+    /* background: var(--ONN3); */
+}
+
+div.onn6 {
+    grid-area: onn6;
+    /* background: var(--ONN3); */
+}
+
+.VAL0 {
+    background: var(--VAL);
+}
+
+.KEST {
+    background: var(--KEST);
+}
+
+.FORR {
+    background: var(--FORR);
+}
+
+.GAGN {
+    background: var(--GAGN);
+}
+
+.VEFÞ {
+    background: var(--VEFÞ);
+}
+.VERK {
+    background: var(--ROBO);
+}
+.ROBO {
+    background: var(--ROBO);
+}
+.FORK {
+    background: var(--FORK);
+}
+
+.EÐLI,
+.STÆR,
+.EFNA {
+    background: var(--EÐLI);
+}
+
+.ÍSLE,
+.MENL,
+.ÍÞRÓ,
+.LÍFS,
+.ENSK,
+.DANS {
+    background: var(--ANNAD);
+}
+
+/* @import 'https://fonts.googleapis.com/css?family=Prompt:400,700'; */
+.modal {
+    /* This way it could be display flex or grid or whatever also. */
+    display: none;
+    /* Probably need media queries here */
+    width: 600px;
+    max-width: 100%;
+   /* height: 400px;*/
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    max-height: 100%;
+    position: fixed;
+    border-radius: 10px;
+    z-index: 100;
+    left: 50%;
+    top: 30%;
+    /* Use this for centering if unknown width/height */
+    transform: translate(-50%, -50%);
+    /* If known, negative margins are probably better (less chance of blurry text). */
+    /* margin: -200px 0 0 -200px; */
+    background: white;
+    box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.6);
+}
+
+.closed {
+    display: none;
+}
+
+.mnafn {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mnumer {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.mlysing,
+.mundanfarar,
+.mcomment,
+.mlinkur {
+    font-size: 1rem;
+    text-align: left;
+    margin: 20px;
+}
+
+.modal-overlay {
+    display: none;
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    opacity: 0.8;
+    background: var(--TEXT);
+}
+
+.modal-guts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 20px 50px 20px 20px;
+}
+
+.modal .close-button {
+    position: absolute;
+    /* don't need to go crazy with z-index here, just sits over .modal-guts */
+    z-index: 1;
+    bottom: 5%;
+    /* needs to look OK with or without scrollbar */
+    right: 20px;
+    border: 0;
+    border-radius: 5px;
+    background: var(--TEXT);
+    color: var(--BAKG);
+    padding: 5px 10px;
+    font-size: 1.3rem;
+}
+
+.modal .close-button:hover {
+    background: var(--BAKG);
+    color: var(--TEXT);
+}
+
+.mafangi {
+    font-size: 0.9rem;
+    border-radius: 5px;
+    background: var(--TEXT);
+    color: var(--BAKG);
+}
+
+.mafangi:hover {
+    background: var(--BAKG);
+    color: var(--TEXT);
+}
