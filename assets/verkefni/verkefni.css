@@ -1,0 +1,87 @@
+/*search input*/
+.filter {
+    display: flex;
+    box-sizing: border-box;
+    /*width: 100%;*/
+    margin-bottom: .4em;
+    padding-left: 0em;
+}
+
+.calendar {
+    cursor: pointer;
+    padding: 5px;
+    width: fit-content;
+    height:41px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+}	
+
+.leit {
+    width: 231px;
+    min-width: 231px;
+    /* position: relative; */
+}
+
+.leit input#search {
+    color: inherit;
+    padding: 12px 10px;
+    padding-left: 40px;
+    max-width: 231px;
+    min-width: 231px;
+    border : 1px solid #ccc; 
+    border-right: 0px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.leit ul {        
+    background: #fff;
+    height: 0;
+    overflow: hidden;  
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.2);
+    transition: .4s height;
+    min-width: 230px;
+    max-width: 230px;
+    position: absolute;
+    margin:0;
+    padding:0;
+    z-index: 5;  /* ath. p.fag er með z-index: 4;*/
+
+}
+
+.leit ul li {
+    font-size: 13px;
+    padding: 10px 10px;
+    list-style: none;
+    border-top: 1px solid #ddd;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.highlight {
+    font-weight: 600;
+    color: rgb(85, 129, 183);
+}
+
+#searchmagnifier{
+    margin-top: 8px;
+    margin-left: 2px;    
+}
+
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.input-wrapper button:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
