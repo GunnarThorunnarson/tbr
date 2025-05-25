@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/styles.css"> 
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/verkefni/verkefni.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/light.css"> -->
+    <link rel="stylesheet" href="assets/verkefni/monthSelect.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/ts-32x32.png">
+	<title>Tölvubraut - Tækniskólinn</title>
+</head>
+<body >
+    <div class="headwrapper">
+        <div class="headmenu"> 
+            <div class="logo">       
+                <img src="/assets/images/tskoli-logo.svg">             
+                <a href="/" title="Tölvubraut Tækniskólans">
+                    <span class="student">TÖLVUBRAUT</span><span class="no-student">TÖLVUBRAUT</span>
+                </a>    
+            </div>
+            <nav>
+                <input type="checkbox" id="toggle" class="menuInput">
+                <label for="toggle" class="menuLabel"><img src="/assets/images/menu-icon.svg" ></label>
+                    <ul class="topmenu">
+                        <a href="/verkefni.html" class="current"> Verkefni </a>
+                        <a href="/index.html" > Áfangar</a>
+                        <a href="/namsskra.html"> Námsskrá</a>
+                        <a href="/kennarar.html"> Kennarar</a>
+                    </ul>
+            </nav>
+        </div>
+    </div> 
+    <header><h3></h3></header><br>
+    <div id="lagfaering">
+        <div class="filter">  
+            <div class="leit" >
+                <form class="input-wrapper">
+                    <button>
+                        <svg id="searchmagnifier" width="20" height="20" fill="#041753" viewBox="0 0 24 24">
+                            <path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"></path>
+                        </svg>
+                    </button>
+                    <input value="" id="search" type="search" placeholder="Leita að verkefnum ..." autocomplete="off" spellcheck="false"  aria-label="Search" > <!-- autofocus="on" -->
+                </form>
+                <ul class="drop"></ul>
+            </div>
+            <div class="calendar" id="calendar">
+                <svg width="27" height="27" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path  d="M14 2V1h-3v1H6V1H3v1H0v15h17V2h-3zM12 2h1v2h-1V2zM4 2h1v2H4V2zM16 16H1v-8.921h15V16zM1 6.079v-3.079h2v2h3V3h5v2h3V3h2v3.079H1z" fill="#000"></path>
+            </svg>
+            </div> 
+        </div>
+        <div class="splashcontent"> 
+            <section class="col-4" id="nemendaverkefni"></section>
+        </div>
+    </div> 
+	<footer></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="https://npmcdn.com/flatpickr/dist/l10n/is.js"></script>  
+  <script src="assets/verkefni/monthSelect.js"></script>
+  <script src="/assets/verkefni/main.js"></script>
+</body>
+</html>
