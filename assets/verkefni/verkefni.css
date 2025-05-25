@@ -30,8 +30,8 @@
     padding-left: 40px;
     max-width: 231px;
     min-width: 231px;
-    border : 1px solid #ccc; 
-    border-right: 0px solid #ccc;
+    border: 1px solid #ccc; 
+    border-left: 0px solid #ccc;
     outline: none;
     box-sizing: border-box;
 }
