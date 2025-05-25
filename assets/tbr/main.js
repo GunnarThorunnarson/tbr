@@ -5,7 +5,7 @@ const modaloverlay = document.getElementsByClassName('modal-overlay')[0];
 let isModal = false;
 
 (function saekjaJson() {
-    fetch("/assets/tbr/afangar.json")
+    fetch("assets/tbr/afangar.json")
         .then(res => res.json())
         .then(json => {
             json.filter(j => j.active)
