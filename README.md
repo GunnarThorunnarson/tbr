@@ -6,8 +6,10 @@ Framþróun í starfi, starfsþróun og nýsköpun.
 ### Þátttakendur verkefnis:
 Gunnar Þórunnarson
 
+<!--
 ### Áætlun um umfang (tímafjölda):
 50 klst
+-->
 
 ### Verkefnalýsing, tilgangur og afurð:
 Mig langar að betrumbæta vefsíðuna https://tolvubraut.is/ þ.e. þann
