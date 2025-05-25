@@ -141,6 +141,7 @@ function dagatal(verkefni){
        // altInput: true,  // input: td. Janúar 2025
        // altFormat: "M j",  // input
         mode: "range",
+        disableMobile: "true", // ath iphone
         minDate: minDate, // "2025-01",  
         maxDate: maxDate, // "2026-01",   
         locale: {
