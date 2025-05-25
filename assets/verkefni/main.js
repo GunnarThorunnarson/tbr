@@ -8,7 +8,7 @@ let nemaverkefni = [];
 
 // Sækja JSON (bæta catch skilaboðin og bæta við spinner etc.)
 async function getData() {
-    let url = '/assets/verkefni/verkefni.json';
+    let url = 'assets/verkefni/verkefni.json';
     try {
         let response = await fetch(url);
         let data = await response.json();
@@ -18,7 +18,7 @@ async function getData() {
 }
 
 function renderTemplate(verkefni) {
-    const imgRoot = "/assets/images/verkefni/"
+    const imgRoot = "assets/images/verkefni/"
     let template = verkefni.map( temp => { return `<a href="${temp.linkur}">
                 <div class="verkefni3">
                     <img src="${imgRoot}${temp.mynd}" />	
