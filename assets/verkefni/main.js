@@ -71,6 +71,7 @@ const searchHandler = (e) => {
         // If word matches input close dropdown and filter
         if(item.toLowerCase() === userInput) {
             searchCloseHandler(e);
+            formEl.blur();
         }
         dropEl.appendChild(listEl);
     })
