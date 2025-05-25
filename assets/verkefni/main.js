@@ -8,7 +8,7 @@ let nemaverkefni = [];
 
 // Sækja JSON (bæta catch skilaboðin og bæta við spinner etc.)
 async function getData() {
-    let url = 'assets/verkefni/verkefni.json';
+    let url = 'https://gunnarthorunnarson.github.io/assets/verkefni/verkefni.json';  //  assets/verkefni/verkefni.json
     try {
         let response = await fetch(url);
         let data = await response.json();
