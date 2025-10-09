@@ -1,10 +1,10 @@
 Böggar:
 
 verkefni.html
-    - böggur í plugin: pop-up calander fer til hægri í hárri upplausn. ekki ef % eru notaðar þá ok í container. issue: https://github.com/flatpickr/flatpickr/issues/3027. Leysti með að setja div wrapper með dimensions, í stað að nota .content í body.
-    - gif loopar ekki lengur? held það hafi gerst eftir að breytt stærð,
-    - færist til þegar engin verkefni finnast
-    - ef texti í leitarreit er ekki til í verkefnum, þá er dagatali samt fully funtional
+- böggur í plugin: pop-up calander fer til hægri í hárri upplausn. ekki ef % eru notaðar þá ok í container. issue: https://github.com/flatpickr/flatpickr/issues/3027. Leysti með að setja div wrapper með dimensions, í stað að nota .content í body.
+- gif loopar ekki lengur? held það hafi gerst eftir að breytt stærð,
+- færist til þegar engin verkefni finnast
+- ef texti í leitarreit er ekki til í verkefnum, þá er dagatali samt fully funtional
 
 ---
 
@@ -36,4 +36,5 @@ afangi.html (index.html)
 skra_verkefni.html (nýtt)
     - búa til form til að skrá í JSON
     - aðgangsstýring login eða github private duga.
+
 
