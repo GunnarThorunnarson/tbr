@@ -5,7 +5,8 @@ verkefni.html
     - gif loopar ekki lengur? held það hafi gerst eftir að breytt stærð,
     - færist til þegar engin verkefni finnast
     - ef texti í leitarreit er ekki til í verkefnum, þá er dagatali samt fully funtional
----------
+
+---
 
 TODO:
 
@@ -35,3 +36,4 @@ afangi.html (index.html)
 skra_verkefni.html (nýtt)
     - búa til form til að skrá í JSON
     - aðgangsstýring login eða github private duga.
+
