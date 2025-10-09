@@ -17,7 +17,7 @@ verkefni.html
 - bæta error handling getData, bæta við t.d spinner.
 - nota arrow (lyklaborð) til að fara niður listann (li í ul).
 - Fjölga verkefnum
-- setja upp skrifleg leyfismál (t.d. hak í innu við verkefnaskil?)
+- setja upp skrifleg leyfismál (t.d. hak í innu við verkefnaskil?) - copera texta. 
 - Skoða:  
     - ekki leyfa að skrá inn script í input. ekki lesa úr input og nota, heldur nota string frá JSON
     - ef ég held of lengi click inni á li þá lokast ul, tengja click við mouseup
@@ -36,6 +36,7 @@ afangi.html (index.html)
 skra_verkefni.html (nýtt)
 - búa til form til að skrá í JSON
 - aðgangsstýring login eða github private duga.
+
 
 
 
